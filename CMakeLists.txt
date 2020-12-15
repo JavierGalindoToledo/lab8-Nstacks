@@ -16,8 +16,9 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/List
 ${CMAKE_CURRENT_SOURCE_DIR}/QueueLib)
 # ${CMAKE_CURRENT_SOURCE_DIR}/gtest)
 
-add_subdirectory(List) #Добавляем директорию с под-CMakeList-ом, и выполняем под-CMakeList
+
+add_subdirectory(main) #Добавляем директорию с под-CMakeList-ом, и выполняем под-CMakeList
+add_subdirectory(List)
 add_subdirectory(QueueLib)
-add_subdirectory(main)
 add_subdirectory(gtest)
 add_subdirectory(test)
